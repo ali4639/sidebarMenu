@@ -1,0 +1,59 @@
+/* styles */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'vazir';
+    direction: rtl;
+}
+.closeBtn{
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    top: 0;
+    right: 58px;
+    padding: 0;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+.sidebarMenu{
+    padding: 10px;
+    display: block;
+    width: 38px; 
+    overflow-y: scroll;
+    height: 97vh;
+    margin: 0;
+    word-spacing: -3px;
+    transition-duration: 0.2s;
+    scrollbar-width: none;          /* Firefox */
+    -ms-overflow-style: none;       /* Internet Explorer */
+}
+.sidebarMenu::-webkit-scrollbar { 
+    display: none;                  /* Safari and Chrome */
+}
+i{
+    font-size: 20px;
+    padding: 0 5px;
+}
+.menuTitle{
+    display: inline-block;
+    font-weight: normal;
+    margin: 0 3px;
+    font-size: 15px;
+}
+input{
+    width: 160px;
+    border: none;   
+}
+input:focus{
+    outline: none;
+}
+.menuItem{
+    padding: 4px;
+    border-radius: 7px;
+    transition-duration: 0.3s;
+}
+.first{
+    margin-bottom: 3px;
+}

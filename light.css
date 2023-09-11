@@ -1,0 +1,24 @@
+/* Light theme */
+
+.closeBtn{
+    background-color: rgb(250, 250, 250);
+    color: rgb(34, 34, 34);
+    box-shadow: -2px 0px 2px #00000042;
+}
+.sidebarMenu{
+    background-color: rgb(250, 250, 250);
+    color: rgb(34, 34, 34);
+    box-shadow: 0 0 11px #00000042;
+
+}
+input{
+    background-color: rgb(0, 135, 253);
+    color: rgb(250, 250, 250);   
+}
+
+.first, .menuItem:hover{
+    background-color: rgb(0, 135, 253);
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+
